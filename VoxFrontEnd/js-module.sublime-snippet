@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[var ${1:network} = window.${1:network} || {};
+
+${1:network}.${2:moduleName} = (function(\$){
+  'use strict';
+  function doInit(instances) {
+
+  }
+  
+  return {
+    init : function(){
+      var ${2:moduleName} = \$('${3:.m-}');
+      if (${2:moduleName}.length < 1) { return; }
+      doInit(${2:moduleName});
+    }
+  };
+})(jQuery);
+jQuery(${1:network}.${2:moduleName}.init);]]></content>
+	<tabTrigger>js-mod-chorus</tabTrigger>
+	<scope>source.js</scope>
+	<description><![CDATA[A chorus-style js-module]]></description>
+</snippet>

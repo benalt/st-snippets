@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@media (min-width: \$break_${1:breakpoint}){}
+]]></content>
+	<tabTrigger>brk min</tabTrigger>
+	<scope>source.scss</scope>
+	<description><![CDATA[A 411-style min-width breakpoint]]></description>
+</snippet>

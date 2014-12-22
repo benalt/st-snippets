@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@media (max-width: \$break_${1:breakpoint}){}
+]]></content>
+	<tabTrigger>brk max</tabTrigger>
+	<scope>source.scss</scope>
+	<description><![CDATA[A 411-style max-width breakpoint]]></description>
+</snippet>
