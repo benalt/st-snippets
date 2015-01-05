@@ -1,7 +1,7 @@
 st-snippets
 ===========
 
-This isn't available in packacge control, but you can add it into sublime text manually
+This isn't available in package control, but you can add it into sublime text manually
 
 In the command line type: 
 

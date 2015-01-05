@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[class ${1:Network}${2:CellName}Cell < Chorus::Cell
+
+  def display
+    render
+  end
+
+end]]></content>
+  <tabTrigger>cell new</tabTrigger>
+  <description><![CDATA[A standard chorus-style cell]]></description>
+  <scope>source.ruby</scope>
+</snippet>
