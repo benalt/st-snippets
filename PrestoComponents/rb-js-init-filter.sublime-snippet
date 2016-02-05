@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[add_filter :js_initialize, :data => pick(:${1:data_to_select})]]></content>
+  <tabTrigger>ps-js-filter</tabTrigger>
+  <description><![CDATA[A standard chorus-style cell]]></description>
+  <scope>source.ruby</scope>
+</snippet>

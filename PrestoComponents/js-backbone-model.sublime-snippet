@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[import Backbone from 'vendor/backbone.exo';
+
+let ${1:NameOfModel} = Backbone.Model.extend({
+  defaults: {
+  }
+});
+module.exports = ${1:NameOfModel};]]></content>
+  <tabTrigger>ps-backbone-model</tabTrigger>
+  <description><![CDATA[]]></description>
+  <scope>source.js</scope>
+</snippet>

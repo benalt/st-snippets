@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[import Initializer from 'lib/initializer';
+
+Initializer.registerComponent('site/nav_list', (element, data) => {
+  var ${1:NameOfView} = require('./scripts/view');
+  var ${2:NameOfModel} = require('./scripts/model');
+  new ${1:NameOfView}({ 'el' : element, model: new ${2:NameOfModel}(data) });
+});
+
+]]></content>
+  <tabTrigger>ps-initializer-js</tabTrigger>
+  <description><![CDATA[A standard chorus-style cell]]></description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[import Backbone from 'vendor/backbone.exo';
+let ${1:NameOfView} = Backbone.View.extend({  
+  initialize: function() {
+  },
+ 
+  render: function() {
+  },
+ 
+  events: {
+  }
+
+}); 
+export default ${1:NameOfView};]]></content>
+	<tabTrigger>ps-backbone-view</tabTrigger>
+	<scope>source.js</scope>
+	<description><![CDATA[A chorus-style js-module]]></description>
+</snippet>
+
+

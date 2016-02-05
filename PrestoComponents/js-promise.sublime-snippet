@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[ ${1:promiseName} : function () {
+  var deferred = \$.Deferred();
+ 
+  this.ajax('${2:action_name}', {
+    data: {},
+    dataType: 'json',
+    success: (result) => {
+      deferred.resolve();
+    }
+  });
+     
+  return deferred.promise();
+}]]></content>
+  <tabTrigger>ps-promise</tabTrigger>
+  <description><![CDATA[Stub JS Promise]]></description>
+  <scope>source.js</scope>
+</snippet>

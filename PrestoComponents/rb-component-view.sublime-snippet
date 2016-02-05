@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[def ${1:ViewName}
+  populate  	
+  add_filter :js_initialize, :data => pick(:${2:data_to_select})
+end]]></content>
+  <tabTrigger>ps-component-view</tabTrigger>
+  <description><![CDATA[]]></description>
+  <scope>source.ruby</scope>
+</snippet>
