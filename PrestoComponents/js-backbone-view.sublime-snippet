@@ -11,7 +11,8 @@ let ${1:NameOfView} = Backbone.View.extend({
   }
 
 }); 
-export default ${1:NameOfView};]]></content>
+export default ${1:NameOfView};
+]]></content>
 	<tabTrigger>ps-backbone-view</tabTrigger>
 	<scope>source.js</scope>
 	<description><![CDATA[A chorus-style js-module]]></description>
