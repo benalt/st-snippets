@@ -4,7 +4,7 @@
     ${1:action_name}: '${2:action_url}'
   }
 })]]></content>
-  <tabTrigger>ps-ajax-extend</tabTrigger>
+  <tabTrigger>prs-ajax-extend</tabTrigger>
   <description><![CDATA[]]></description>
   <scope>source.js</scope>
 </snippet>

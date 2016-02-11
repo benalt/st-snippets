@@ -7,7 +7,7 @@ let ${1:NameOfModel} = Backbone.Model.extend({
 });
 module.exports = ${1:NameOfModel};
 ]]></content>
-  <tabTrigger>ps-backbone-model</tabTrigger>
+  <tabTrigger>prs-backbone-model</tabTrigger>
   <description><![CDATA[]]></description>
   <scope>source.js</scope>
 </snippet>

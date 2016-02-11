@@ -3,7 +3,7 @@
   populate  	
   add_filter :js_initialize, :data => pick(:${2:data_to_select})
 end]]></content>
-  <tabTrigger>ps-component-view</tabTrigger>
+  <tabTrigger>prs-component-view</tabTrigger>
   <description><![CDATA[]]></description>
   <scope>source.ruby</scope>
 </snippet>

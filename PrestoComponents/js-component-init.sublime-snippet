@@ -8,7 +8,7 @@ Initializer.registerComponent('${1:component/slug}', (element, data) => {
 });
 
 ]]></content>
-  <tabTrigger>ps-initializer-js</tabTrigger>
+  <tabTrigger>prs-initializer-js</tabTrigger>
   <description><![CDATA[A standard chorus-style cell]]></description>
   <scope>source.js</scope>
 </snippet>

@@ -12,7 +12,7 @@
      
   return deferred.promise();
 }]]></content>
-  <tabTrigger>ps-promise</tabTrigger>
+  <tabTrigger>prs-promise</tabTrigger>
   <description><![CDATA[Stub JS Promise]]></description>
   <scope>source.js</scope>
 </snippet>
