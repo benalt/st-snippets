@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<%= presto_component "${1:component/uri}" , "${2:template}"" :data => ${3:data} %>
+    ]]></content>
+  <tabTrigger>prs-component-call</tabTrigger>
+  <description><![CDATA[component call]]></description>
+  <scope>text.html.ruby</scope>
+</snippet>

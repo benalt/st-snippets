@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<%= svg_icon 'icon-${IconName}' %>
+    ]]></content>
+  <tabTrigger>prs-icon-call</tabTrigger>
+  <description><![CDATA[component call]]></description>
+  <scope>text.html.ruby</scope>
+</snippet>

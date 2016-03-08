@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Presto.render_component("${1:component/uri}", :template => "${2:template}", :data => {})]]></content>
+  <tabTrigger>prs-render-component</tabTrigger>
+  <description><![CDATA[A site config call]]></description>
+  <scope>source.ruby</scope>
+</snippet>

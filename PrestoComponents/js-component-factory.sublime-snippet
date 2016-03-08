@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[import Initializer from 'lib/initializer';
+
+Initializer.registerFactory('${1:component/slug}', function(options) {
+  var ${2:NameOfView} = require('./scripts/view');
+  var ${3:NameOfModel} = require('./scripts/model');
+
+  var model = new PrestoComponentEditorModel(options);
+  return new ${2:NameOfView}({ model: model });
+});
+
+]]></content>
+  <tabTrigger>prs-factory-js</tabTrigger>
+  <description><![CDATA[A presto factory init]]></description>
+  <scope>source.js</scope>
+</snippet>

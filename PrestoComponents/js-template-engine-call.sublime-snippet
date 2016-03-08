@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[ 
+var templateEngine = require('lib/template');
+var itemTmpl = templateEngine(require('../tmpl/${1:template_name}'));
+itemTmpl(${2:{}});
+]]></content>
+  <tabTrigger>prs-js-template-call</tabTrigger>
+  <description><![CDATA[Stub JS TemplateCall]]></description>
+  <scope>source.js</scope>
+</snippet>
